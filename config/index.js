@@ -36,12 +36,12 @@ export const USER_CONFIG = {
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
     poetry: true,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -79,8 +79,8 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "Dear 松松", "year": "2001", "date": "10-10"},
-        {"type": "*生日", "name": "Dear 松松", "year": "2001", "date": "8-26"},
+        {"type": "生日", "name": "松松", "year": "2001", "date": "10-10"},
+        {"type": "*生日", "name": "松松", "year": "2001", "date": "8-26"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -102,7 +102,7 @@ export const USER_CONFIG = {
       horoscopeDateType: '今日',
       openUrl: "https://tools.miku.ac/news/",
       festivals: [
-        {"type": "生日", "name": "Dear 春药", "year": "2001", "date": "7-10"},
+        {"type": "生日", "name": "春药", "year": "2001", "date": "7-10"},
       ],
       customizedDateList: []
     },
@@ -116,7 +116,7 @@ export const USER_CONFIG = {
       horoscopeDateType: '今日',
       openUrl: "https://tools.miku.ac/news/",
       festivals: [
-        {"type": "生日", "name": "Dear 一生", "year": "2001", "date": "9-23"},
+        {"type": "生日", "name": "一生", "year": "2001", "date": "9-23"},
       ],
       customizedDateList: []
     },
