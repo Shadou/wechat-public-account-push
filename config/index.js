@@ -120,6 +120,34 @@ export const USER_CONFIG = {
       ],
       customizedDateList: []
     },
+    {
+      name: "YuDragon",
+      id: "oHPME55hDuvDpPrrFMp4YgLYh-eI",
+      useTemplateId: "jVrs2Vsyu5gliwz2ECQmyjM_P3r0N2WxbiYovBAwUQQ",
+      province: "浙江",
+      city: "杭州",
+      horoscopeDate: '10-28',
+      horoscopeDateType: '今日',
+      openUrl: "https://tools.miku.ac/news/",
+      festivals: [
+        {"type": "生日", "name": "YuDragon", "year": "2001", "date": "10-28"},
+      ],
+      customizedDateList: []
+    },
+    {
+      name: "Isharmla",
+      id: "oHPME5_zkiBxJOIIfBWsHQ_Qa8J0",
+      useTemplateId: "jVrs2Vsyu5gliwz2ECQmyjM_P3r0N2WxbiYovBAwUQQ",
+      province: "浙江",
+      city: "杭州",
+      horoscopeDate: '11-14',
+      horoscopeDateType: '今日',
+      openUrl: "https://tools.miku.ac/news/",
+      festivals: [
+        {"type": "生日", "name": "Isharmla", "year": "2001", "date": "11-14"},
+      ],
+      customizedDateList: []
+    },
     // 你可以不断按格式往下增加
     // ...
   ],
