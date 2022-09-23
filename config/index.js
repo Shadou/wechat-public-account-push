@@ -60,15 +60,15 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "杭城郭少",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oHPME58BTSzd2g_dy4b9IC-tsTP4",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "jVrs2Vsyu5gliwz2ECQmyjM_P3r0N2WxbiYovBAwUQQ",
       // 所在省份
-      province: "广东",
+      province: "浙江",
       // 所在城市
-      city: "肇庆",
+      city: "杭州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -147,7 +147,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oHPME564NfEcGkTNtmhEu8cL-F6w",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -160,9 +160,9 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "浙江",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "杭州",
   
   /** 重要节日相关 */
   
